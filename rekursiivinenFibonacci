@@ -1,0 +1,82 @@
+//let kutsujenmaara = 0;
+
+
+
+// Rekursiivinen Fibonacci
+//let kutsujenmaara = 0;
+function fibonacci(n) {
+    if (n <= 1) {
+        //console.log("kutsu" + n);
+        kutsujenmaara ++;
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+
+function tulostaFibXKertaa (kertaa) {
+	for (let i = 0; i < kertaa; i++) {
+		console.log("luku: " + fibonacci(i));
+		console.log("Monesko: " + (i + 1));
+	}
+}
+
+tulostaFibXKertaa(16);
+
+/*console.log("kutsut: " + kutsujenmaara);
+kutsujenmaara = 0;
+console.log(fibonacci(1));
+console.log("kutsut: ykkösella" + kutsujenmaara);
+kutsujenmaara = 0;
+
+console.log(fibonacci(2));
+console.log(fibonacci(3));
+console.log("kutsut 3:lla : " + kutsujenmaara);
+kutsujenmaara = 0;
+
+console.log(fibonacci(49));
+console.log("kutsut 49:lla: " + kutsujenmaara);
+kutsujenmaara = 0;
+
+
+console.log(fibonacci(100));
+console.log("kutsut satasella: " + kutsujenmaara);
+kutsujenmaara = 0;
+*/
+
+console.log("correct: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, ....");
+
+
+/*
+console.log(fibonacci(4));
+console.log(fibonacci(5));
+console.log(fibonacci(6));
+console.log(fibonacci(7));
+console.log("kutsut seiskalla: " + kutsujenmaara);
+kutsujenmaara = 0;
+
+console.log(fibonacci(8));*/
+
+
+
+/*function fibonacci(n){
+	let i = 0;
+	let ekaluku = 0;
+	let tokaluku = 0;
+	let tulos = 0;
+	while (i <= n) {
+		ekaluku += i;
+		tokaluku += ekaluku;
+		tulos = ekaluku + tokaluku;
+		i++;
+	}
+	return tulos;
+}
+
+console.log(fibonacci(0));
+console.log(fibonacci(1));
+console.log(fibonacci(2));
+console.log(fibonacci(3));
+console.log(fibonacci(4));
+console.log(fibonacci(5));
+console.log(fibonacci(6)); */
