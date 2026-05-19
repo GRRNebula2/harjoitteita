@@ -1,0 +1,24 @@
+
+function nelio(n){
+	let i = 0;
+	let ekaluku = 0;
+	let tokaluku = 0;
+	let tulos = 0;
+	while (i <= n) {
+		ekaluku += i;
+		tokaluku += ekaluku;
+		tulos = ekaluku + tokaluku;
+		i++;
+	}
+	return tulos;
+}
+
+
+function tulostaNelioXKertaa (kertaa) {
+	for (let i = 0; i < kertaa; i++) {
+		console.log("luku: " + nelio(i));
+		console.log("Monesko: " + (i + 1));
+	}
+}
+
+tulostaNelioXKertaa(16);
