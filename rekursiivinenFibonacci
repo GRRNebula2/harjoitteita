@@ -21,7 +21,7 @@ function tulostaFibXKertaa (kertaa) {
 	}
 }
 
-tulostaFibXKertaa(16);
+tulostaFibXKertaa(1);
 
 /*console.log("kutsut: " + kutsujenmaara);
 kutsujenmaara = 0;

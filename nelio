@@ -1,4 +1,5 @@
-
+//jokin välivaihe fibonaccia
+//todo neliö. oli jossain vaiheessa neliö.
 function nelio(n){
 	let i = 0;
 	let ekaluku = 0;
